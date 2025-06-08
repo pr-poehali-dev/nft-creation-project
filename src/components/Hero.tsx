@@ -34,14 +34,6 @@ const Hero = () => {
               <Icon name="Compass" size={20} className="mr-2" />
               Исследовать коллекции
             </Button>
-            <Button
-              size="lg"
-              variant="outline"
-              className="border-purple-300 text-purple-100 hover:bg-purple-500/20 text-lg px-8 py-4"
-            >
-              <Icon name="Plus" size={20} className="mr-2" />
-              Создать NFT
-            </Button>
           </div>
 
           <div className="grid grid-cols-3 gap-8 max-w-2xl mx-auto">
