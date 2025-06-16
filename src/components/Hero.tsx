@@ -14,16 +14,16 @@ const Hero = () => {
       <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
         <div className="max-w-4xl mx-auto">
           <h1 className="text-5xl md:text-7xl font-bold font-montserrat mb-6 leading-tight">
-            Откройте для себя
+            Создавайте и торгуйте
             <span className="bg-gradient-to-r from-purple-400 to-pink-400 bg-clip-text text-transparent">
               {" "}
-              уникальные NFT
+              эксклюзивными NFT
             </span>
           </h1>
 
           <p className="text-xl md:text-2xl text-purple-100 mb-8 leading-relaxed">
-            Покупайте, продавайте и создавайте цифровые произведения искусства в
-            крупнейшем NFT-маркетплейсе
+            Присоединяйтесь к революции цифрового искусства и владейте
+            уникальными токенами в безопасной экосистеме
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-12">
@@ -32,7 +32,7 @@ const Hero = () => {
               className="bg-gradient-to-r from-purple-500 to-pink-500 hover:from-purple-600 hover:to-pink-600 text-lg px-8 py-4"
             >
               <Icon name="Compass" size={20} className="mr-2" />
-              Исследовать коллекции
+              Начать торговлю
             </Button>
           </div>
 
@@ -41,21 +41,23 @@ const Hero = () => {
               <div className="grid grid-cols-3 gap-8 max-w-2xl mx-auto lg:mx-0">
                 <div className="text-center">
                   <div className="text-3xl font-bold text-purple-200 mb-1">
-                    2.8M+
+                    5.2M+
                   </div>
-                  <div className="text-sm text-purple-300">Произведений</div>
+                  <div className="text-sm text-purple-300">NFT в продаже</div>
                 </div>
                 <div className="text-center">
                   <div className="text-3xl font-bold text-purple-200 mb-1">
-                    150K+
+                    320K+
                   </div>
-                  <div className="text-sm text-purple-300">Художников</div>
+                  <div className="text-sm text-purple-300">
+                    Активных трейдеров
+                  </div>
                 </div>
                 <div className="text-center">
                   <div className="text-3xl font-bold text-purple-200 mb-1">
-                    12M+
+                    ₽2.1B+
                   </div>
-                  <div className="text-sm text-purple-300">Пользователей</div>
+                  <div className="text-sm text-purple-300">Объём торгов</div>
                 </div>
               </div>
             </div>
