@@ -36,24 +36,39 @@ const Hero = () => {
             </Button>
           </div>
 
-          <div className="grid grid-cols-3 gap-8 max-w-2xl mx-auto">
-            <div className="text-center">
-              <div className="text-3xl font-bold text-purple-200 mb-1">
-                2.8M+
+          <div className="flex flex-col lg:flex-row items-center gap-12 max-w-6xl mx-auto">
+            <div className="flex-1">
+              <div className="grid grid-cols-3 gap-8 max-w-2xl mx-auto lg:mx-0">
+                <div className="text-center">
+                  <div className="text-3xl font-bold text-purple-200 mb-1">
+                    2.8M+
+                  </div>
+                  <div className="text-sm text-purple-300">Произведений</div>
+                </div>
+                <div className="text-center">
+                  <div className="text-3xl font-bold text-purple-200 mb-1">
+                    150K+
+                  </div>
+                  <div className="text-sm text-purple-300">Художников</div>
+                </div>
+                <div className="text-center">
+                  <div className="text-3xl font-bold text-purple-200 mb-1">
+                    12M+
+                  </div>
+                  <div className="text-sm text-purple-300">Пользователей</div>
+                </div>
               </div>
-              <div className="text-sm text-purple-300">Произведений</div>
             </div>
-            <div className="text-center">
-              <div className="text-3xl font-bold text-purple-200 mb-1">
-                150K+
+
+            <div className="flex-1 max-w-lg">
+              <div className="relative">
+                <div className="absolute inset-0 bg-gradient-to-r from-purple-500/20 to-pink-500/20 rounded-2xl blur-2xl"></div>
+                <img
+                  src="https://images.unsplash.com/photo-1634973357973-f2ed2657db3c?w=500&h=600&fit=crop&crop=center"
+                  alt="Современная цифровая NFT коллекция с яркими неоновыми цветами"
+                  className="relative rounded-2xl shadow-2xl border border-purple-400/30 w-full h-auto"
+                />
               </div>
-              <div className="text-sm text-purple-300">Художников</div>
-            </div>
-            <div className="text-center">
-              <div className="text-3xl font-bold text-purple-200 mb-1">
-                12M+
-              </div>
-              <div className="text-sm text-purple-300">Пользователей</div>
             </div>
           </div>
         </div>
