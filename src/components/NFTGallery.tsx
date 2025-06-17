@@ -59,15 +59,14 @@ const NFTGallery = () => {
   ];
 
   return (
-    <section className="py-16 bg-white">
+    <section className="py-20 bg-gradient-to-b from-gray-50 to-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-12">
-          <h2 className="text-4xl font-bold font-montserrat text-gray-900 mb-4">
-            Популярные NFT
+          <h2 className="text-5xl font-bold font-montserrat text-gray-900 mb-4">
+            Трендовые коллекции
           </h2>
-          <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-            Исследуйте уникальные цифровые активы от талантливых художников со
-            всего мира
+          <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+            Самые популярные и востребованные NFT от проверенных создателей
           </p>
         </div>
 

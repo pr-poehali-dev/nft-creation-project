@@ -3,7 +3,7 @@ import Icon from "@/components/ui/icon";
 
 const Hero = () => {
   return (
-    <section className="relative bg-gradient-to-br from-purple-900 via-purple-800 to-pink-800 text-white py-20 overflow-hidden">
+    <section className="relative bg-gradient-to-br from-indigo-900 via-blue-800 to-purple-800 text-white py-16 overflow-hidden">
       <div className="absolute inset-0 bg-black/20"></div>
       <div className="absolute inset-0">
         <div className="absolute top-10 left-10 w-20 h-20 bg-purple-500/30 rounded-full blur-xl"></div>
@@ -13,20 +13,20 @@ const Hero = () => {
 
       <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
         <div className="max-w-4xl mx-auto">
-          <h1 className="text-5xl md:text-7xl font-bold font-montserrat mb-6 leading-tight">
-            Создавайте и торгуйте
-            <span className="bg-gradient-to-r from-purple-400 to-pink-400 bg-clip-text text-transparent">
+          <h1 className="text-4xl md:text-6xl font-bold font-montserrat mb-6 leading-tight">
+            Торгуйте и коллекционируйте
+            <span className="bg-gradient-to-r from-blue-400 to-purple-400 bg-clip-text text-transparent">
               {" "}
-              эксклюзивными NFT
+              лучшие NFT
             </span>
           </h1>
 
-          <p className="text-xl md:text-2xl text-purple-100 mb-8 leading-relaxed">
-            Присоединяйтесь к революции цифрового искусства и владейте
-            уникальными токенами в безопасной экосистеме
+          <p className="text-lg md:text-xl text-blue-100 mb-8 leading-relaxed">
+            Откройте для себя эксклюзивные цифровые коллекции от ведущих
+            художников мира
           </p>
 
-          <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-12">
+          <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-8">
             <Button
               size="lg"
               className="bg-gradient-to-r from-purple-500 to-pink-500 hover:from-purple-600 hover:to-pink-600 text-lg px-8 py-4"
