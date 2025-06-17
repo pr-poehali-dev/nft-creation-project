@@ -7,9 +7,9 @@ const Index = () => {
   return (
     <div className="min-h-screen bg-white">
       <Header />
-      <NFTGallery />
       <Hero />
       <StatsSection />
+      <NFTGallery />
     </div>
   );
 };
